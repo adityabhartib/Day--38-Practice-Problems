@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<script>
+    'use strict';
+    function askDefault(yes,no,theQue 'Can you Answer'){
+        if(question(theQue))yes();
+        else no();
+    }
+    function ask(theQue.. Others){
+        if(question(theQue)) others[0]()
+        else others[1]();
+    }
+    function showeOk(){
+        alert("you agreed.");
+    }
+    function showCancel(){
+        alert ("Yopu can Cancled the execution.");
+    }
+    let question =function(the que){
+        return confirm(theQue);
+    };
+    ask("Do you agree?",showeOk,showCancel);
+    askDefault(showeOk,showCancel);
+    <script>
