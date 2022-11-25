@@ -1,7 +1,17 @@
 let dogs =["Bulldog","Beagle","Labrador"];
 
-alldogs = "";
-for(let dog of dogs){
-alldogs+= dog + " ";
+
+var oldDogs = " ";
+for(let i=0;i<dogs.length; i++){
+    oldDogs += dogs[i] +" "
 }
-console.log("NEW : "+alldogs)
+console.log(oldDogs);
+
+
+
+
+// alldogs = "";
+// for(let dog of dogs){
+// alldogs+= dog + " ";
+// }
+// console.log("NEW : "+alldogs)
